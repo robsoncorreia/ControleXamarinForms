@@ -1,9 +1,5 @@
 ﻿using ControleXamarinForms.Controls;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -45,6 +41,12 @@ namespace ControleXamarinForms.Menu
         private void GoButtonPage(object sender, EventArgs e)
         {
             Detail = new ButtonPage();
+            IsPresented = false;
+        }
+
+        private void GoEntryEditorPage(object sender, EventArgs e)
+        {
+            Detail = new EntryEditorPage();
             IsPresented = false;
         }
     }

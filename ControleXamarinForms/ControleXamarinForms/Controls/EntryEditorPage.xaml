@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Entry Editor"
+             x:Class="ControleXamarinForms.Controls.EntryEditorPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry
+                   x:Name="TxtIdade"
+                   TextColor="Red"
+                   Placeholder="Digite sua idade"
+                   PlaceholderColor="Black"
+                   IsPassword="False"
+                   Text=""
+                   Keyboard="Numeric"
+                   BackgroundColor="#CCCCCC" />
+            <Label x:Name="LblDublicado" />
+            <Editor x:Name="TxtComentario" HeightRequest="200" />
+            <Label x:Name="LblQuantidadeCaracteres" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

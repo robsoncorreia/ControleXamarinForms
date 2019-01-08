@@ -27,5 +27,15 @@ namespace ControleXamarinForms.Menu
         {
             Detail = new ProgressBarPage();
         }
+
+        private void GoBoxViewPage(object sender, EventArgs e)
+        {
+            Detail = new BoxViewPage();
+        }
+
+        private void GoLabelPage(object sender, EventArgs e)
+        {
+            Detail = new LabelPage();
+        }
     }
 }

@@ -49,5 +49,11 @@ namespace ControleXamarinForms.Menu
             Detail = new EntryEditorPage();
             IsPresented = false;
         }
+
+        private void GoDatePickerPage(object sender, EventArgs e)
+        {
+            Detail = new DatePickerPage();
+            IsPresented = false;
+        }
     }
 }

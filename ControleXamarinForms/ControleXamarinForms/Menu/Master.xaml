@@ -12,6 +12,7 @@
                 <Button Text="Label" Clicked="GoLabelPage"  BackgroundColor="Transparent" />
                 <Button Text="Button" Clicked="GoButtonPage"  BackgroundColor="Transparent" />
                 <Button Text="Entry Editor" Clicked="GoEntryEditorPage"  BackgroundColor="Transparent" />
+                <Button Text="Date Picker" Clicked="GoDatePickerPage"  BackgroundColor="Transparent" />
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>

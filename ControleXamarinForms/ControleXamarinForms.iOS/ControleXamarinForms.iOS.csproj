@@ -157,4 +157,7 @@
       <Name>ControleXamarinForms</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\button.png" />
+  </ItemGroup>
 </Project>

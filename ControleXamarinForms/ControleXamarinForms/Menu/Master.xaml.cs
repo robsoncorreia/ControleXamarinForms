@@ -21,21 +21,31 @@ namespace ControleXamarinForms.Menu
         private void GoActivityIndicatorPage(object sender, EventArgs e)
         {
             Detail = new ActivityIndicatorPage();
+            IsPresented = false;
         }
 
         private void GoProgressBarPage(object sender, EventArgs e)
         {
             Detail = new ProgressBarPage();
+            IsPresented = false;
         }
 
         private void GoBoxViewPage(object sender, EventArgs e)
         {
             Detail = new BoxViewPage();
+            IsPresented = false;
         }
 
         private void GoLabelPage(object sender, EventArgs e)
         {
             Detail = new LabelPage();
+            IsPresented = false;
+        }
+
+        private void GoButtonPage(object sender, EventArgs e)
+        {
+            Detail = new ButtonPage();
+            IsPresented = false;
         }
     }
 }

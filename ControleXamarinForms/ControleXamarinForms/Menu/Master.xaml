@@ -10,6 +10,7 @@
                 <Button Text="Progress Bar" Clicked="GoProgressBarPage"  BackgroundColor="Transparent" />
                 <Button Text="BoxView" Clicked="GoBoxViewPage"  BackgroundColor="Transparent" />
                 <Button Text="Label" Clicked="GoLabelPage"  BackgroundColor="Transparent" />
+                <Button Text="Button" Clicked="GoButtonPage"  BackgroundColor="Transparent" />
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>

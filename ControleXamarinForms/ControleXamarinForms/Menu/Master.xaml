@@ -19,6 +19,7 @@
                 <Button Text="Slider/Stepper" Clicked="GoSliderStepperPage"  BackgroundColor="Transparent" />
                 <Button Text="Switch" Clicked="GoSwitchPage"  BackgroundColor="Transparent" />
                 <Button Text="Image" Clicked="GoImagePage"  BackgroundColor="Transparent" />
+                <Button Text="ListView" Clicked="GoListViewPage"  BackgroundColor="Transparent" />
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>

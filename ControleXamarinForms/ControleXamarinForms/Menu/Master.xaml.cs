@@ -91,5 +91,11 @@ namespace ControleXamarinForms.Menu
             Detail = new ImagePage();
             IsPresented = false;
         }
+
+        private void GoListViewPage(object sender, EventArgs e)
+        {
+            Detail = new ListViewPage();
+            IsPresented = false;
+        }
     }
 }

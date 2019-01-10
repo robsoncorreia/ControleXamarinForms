@@ -85,5 +85,11 @@ namespace ControleXamarinForms.Menu
             Detail = new SwitchPage();
             IsPresented = false;
         }
+
+        private void GoImagePage(object sender, EventArgs e)
+        {
+            Detail = new ImagePage();
+            IsPresented = false;
+        }
     }
 }

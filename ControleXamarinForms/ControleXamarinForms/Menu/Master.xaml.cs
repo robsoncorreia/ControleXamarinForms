@@ -79,5 +79,11 @@ namespace ControleXamarinForms.Menu
             Detail = new SliderStepperPage();
             IsPresented = false;
         }
+
+        private void GoSwitchPage(object sender, EventArgs e)
+        {
+            Detail = new SwitchPage();
+            IsPresented = false;
+        }
     }
 }

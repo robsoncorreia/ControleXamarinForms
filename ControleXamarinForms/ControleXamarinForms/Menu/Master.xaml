@@ -17,6 +17,7 @@
                 <Button Text="Picker" Clicked="GoPickerPage"  BackgroundColor="Transparent" />
                 <Button Text="Search Bar" Clicked="GoSearchBarPage"  BackgroundColor="Transparent" />
                 <Button Text="Slider/Stepper" Clicked="GoSliderStepperPage"  BackgroundColor="Transparent" />
+                <Button Text="Switch" Clicked="GoSwitchPage"  BackgroundColor="Transparent" />
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>

@@ -55,5 +55,23 @@ namespace ControleXamarinForms.Menu
             Detail = new DatePickerPage();
             IsPresented = false;
         }
+
+        private void GoTimePickerPage(object sender, EventArgs e)
+        {
+            Detail = new TimePickerPage();
+            IsPresented = false;
+        }
+
+        private void GoPickerPage(object sender, EventArgs e)
+        {
+            Detail = new PickerPage();
+            IsPresented = false;
+        }
+
+        private void GoSearchBarPage(object sender, EventArgs e)
+        {
+            Detail = new SearchBarPage();
+            IsPresented = false;
+        }
     }
 }

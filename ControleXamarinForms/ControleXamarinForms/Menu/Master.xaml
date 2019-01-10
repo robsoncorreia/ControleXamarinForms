@@ -13,6 +13,9 @@
                 <Button Text="Button" Clicked="GoButtonPage"  BackgroundColor="Transparent" />
                 <Button Text="Entry Editor" Clicked="GoEntryEditorPage"  BackgroundColor="Transparent" />
                 <Button Text="Date Picker" Clicked="GoDatePickerPage"  BackgroundColor="Transparent" />
+                <Button Text="Time Picker" Clicked="GoTimePickerPage"  BackgroundColor="Transparent" />
+                <Button Text="Picker" Clicked="GoPickerPage"  BackgroundColor="Transparent" />
+                <Button Text="Search Bar" Clicked="GoSearchBarPage"  BackgroundColor="Transparent" />
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>

@@ -5,26 +5,33 @@
                   x:Class="ControleXamarinForms.Menu.Master">
     <MasterDetailPage.Master>
         <ContentPage Title="Menu">
-            <StackLayout>
-                <Button Text="Activity Indicator" Clicked="GoActivityIndicatorPage"  BackgroundColor="Transparent" />
-                <Button Text="Progress Bar" Clicked="GoProgressBarPage"  BackgroundColor="Transparent" />
-                <Button Text="BoxView" Clicked="GoBoxViewPage"  BackgroundColor="Transparent" />
-                <Button Text="Label" Clicked="GoLabelPage"  BackgroundColor="Transparent" />
-                <Button Text="Button" Clicked="GoButtonPage"  BackgroundColor="Transparent" />
-                <Button Text="Entry Editor" Clicked="GoEntryEditorPage"  BackgroundColor="Transparent" />
-                <Button Text="Date Picker" Clicked="GoDatePickerPage"  BackgroundColor="Transparent" />
-                <Button Text="Time Picker" Clicked="GoTimePickerPage"  BackgroundColor="Transparent" />
-                <Button Text="Picker" Clicked="GoPickerPage"  BackgroundColor="Transparent" />
-                <Button Text="Search Bar" Clicked="GoSearchBarPage"  BackgroundColor="Transparent" />
-                <Button Text="Slider/Stepper" Clicked="GoSliderStepperPage"  BackgroundColor="Transparent" />
-                <Button Text="Switch" Clicked="GoSwitchPage"  BackgroundColor="Transparent" />
-                <Button Text="Image" Clicked="GoImagePage"  BackgroundColor="Transparent" />
-                <Button Text="ListView" Clicked="GoListViewPage"  BackgroundColor="Transparent" />
-                <Button Text="TableView" Clicked="GoTableViewPage"  BackgroundColor="Transparent" />
-            </StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    <Button Text="Activity Indicator" Clicked="GoActivityIndicatorPage"  BackgroundColor="Transparent" />
+                    <Button Text="Progress Bar" Clicked="GoProgressBarPage"  BackgroundColor="Transparent" />
+                    <Button Text="BoxView" Clicked="GoBoxViewPage"  BackgroundColor="Transparent" />
+                    <Button Text="Label" Clicked="GoLabelPage"  BackgroundColor="Transparent" />
+                    <Button Text="Button" Clicked="GoButtonPage"  BackgroundColor="Transparent" />
+                    <Button Text="Entry Editor" Clicked="GoEntryEditorPage"  BackgroundColor="Transparent" />
+                    <Button Text="Date Picker" Clicked="GoDatePickerPage"  BackgroundColor="Transparent" />
+                    <Button Text="Time Picker" Clicked="GoTimePickerPage"  BackgroundColor="Transparent" />
+                    <Button Text="Picker" Clicked="GoPickerPage"  BackgroundColor="Transparent" />
+                    <Button Text="Search Bar" Clicked="GoSearchBarPage"  BackgroundColor="Transparent" />
+                    <Button Text="Slider/Stepper" Clicked="GoSliderStepperPage"  BackgroundColor="Transparent" />
+                    <Button Text="Switch" Clicked="GoSwitchPage"  BackgroundColor="Transparent" />
+                    <Button Text="Image" Clicked="GoImagePage"  BackgroundColor="Transparent" />
+                    <Button Text="ListView" Clicked="GoListViewPage"  BackgroundColor="Transparent" />
+                    <Button Text="TableView" Clicked="GoTableViewPage"  BackgroundColor="Transparent" />
+                    <Button Text="WebView" Clicked="GoWebViewPage"  BackgroundColor="Transparent" />
+                </StackLayout>
+            </ScrollView>
         </ContentPage>
     </MasterDetailPage.Master>
     <MasterDetailPage.Detail>
-        <pages:MainPage />
+        <NavigationPage>
+            <x:Arguments>
+                <pages:MainPage />
+            </x:Arguments>
+        </NavigationPage>
     </MasterDetailPage.Detail>
 </MasterDetailPage>

@@ -20,6 +20,7 @@
                 <Button Text="Switch" Clicked="GoSwitchPage"  BackgroundColor="Transparent" />
                 <Button Text="Image" Clicked="GoImagePage"  BackgroundColor="Transparent" />
                 <Button Text="ListView" Clicked="GoListViewPage"  BackgroundColor="Transparent" />
+                <Button Text="TableView" Clicked="GoTableViewPage"  BackgroundColor="Transparent" />
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>

@@ -97,5 +97,11 @@ namespace ControleXamarinForms.Menu
             Detail = new ListViewPage();
             IsPresented = false;
         }
+
+        private void GoTableViewPage(object sender, EventArgs e)
+        {
+            Detail = new TableViewPage();
+            IsPresented = false;
+        }
     }
 }

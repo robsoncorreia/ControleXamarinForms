@@ -73,5 +73,11 @@ namespace ControleXamarinForms.Menu
             Detail = new SearchBarPage();
             IsPresented = false;
         }
+
+        private void GoSliderStepperPage(object sender, EventArgs e)
+        {
+            Detail = new SliderStepperPage();
+            IsPresented = false;
+        }
     }
 }
